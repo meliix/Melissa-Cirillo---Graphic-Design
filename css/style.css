@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: #172A3A;
+}
+
+nav .nav-wrapper {
+  padding: 0 30px;
+}
+
+nav .brand-logo {
+ font-family: 'Indie Flower', cursive;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #009FFD;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 10%;
+  }
+
+  .header-subtitle {
+    margin-top: 3%;
+    font-size: 1.3em;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.col-servizi {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizi p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+#descrizione h5 {
+  text-shadow: 2px 2px 4px black;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  line-height: 1.5em;
+}
+
+#img3 {
+  filter: blur(10px); 
+  -webkit-filter: 
+  blur(10px);
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.social-icon {
+  font-size: 1.4em;
+  color: #ffffff;
+  padding: 0 8px;
+}
+
+.social-icon:hover {
+  color: #FF7700;
+}
